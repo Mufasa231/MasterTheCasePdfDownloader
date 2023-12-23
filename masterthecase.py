@@ -5,7 +5,7 @@ import requests
 
 from rc4 import *
 
-iNeed = input("URL: ")
+iNeed = input("URL:https://www.imitam.co.il/elementor-4823/ ")
 response = requests.get(iNeed.strip())
 
 # Get the download url from the page
